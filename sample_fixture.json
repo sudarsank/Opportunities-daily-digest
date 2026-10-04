@@ -1,0 +1,16 @@
+{
+  "opportunities": [
+    {
+      "company": "Fidelity Investments",
+      "program": "Freshman Finance Exploration Day",
+      "type": "1-day insight",
+      "term": "Spring 2027",
+      "eligibility": "verified_first_year",
+      "eligibility_evidence": "Open to first-year students graduating in 2030",
+      "deadline": "2099-01-01",
+      "apply_url": "https://jobs.fidelity.example/freshman-day",
+      "source": "example",
+      "first_year_signal": "yes"
+    }
+  ]
+}

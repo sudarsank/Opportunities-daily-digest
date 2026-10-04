@@ -1,0 +1,54 @@
+{
+  "agentmail_inbox_id": "sudarsan-0409@agentmail.to",
+  "recipients": [
+    "sudarsank@yahoo.com",
+    "poornimasudi@gmail.com"
+  ],
+  "timezone": "America/New_York",
+  "digest_send_hour": 8,
+  "urgent_days": 14,
+  "watch_days": 120,
+  "model": "claude-sonnet-5-5",
+  "profile": {
+    "school": "University of Maryland, Robert H. Smith School of Business",
+    "major": "Finance",
+    "class_year": "Freshman (first-year), graduating May 2030",
+    "graduation_window": "December 2029 - June 2030"
+  },
+  "daily": {
+    "max_searches_per_batch": 8,
+    "max_tokens": 8000
+  },
+  "hourly": {
+    "enabled": true,
+    "active_hours": [
+      7,
+      22
+    ],
+    "max_searches_per_batch": 3,
+    "max_tokens": 5000
+  },
+  "batches": [
+    {
+      "name": "Investment banking, capital markets, sales & trading",
+      "topics": "investment banking, capital markets, sales & trading, equity research, restructuring, boutique/elite-boutique banks, bulge brackets"
+    },
+    {
+      "name": "Asset management, wealth, insurance, real estate finance",
+      "topics": "asset management, wealth management, private equity/credit pre-internships, insurance, real estate finance, T. Rowe Price and other Maryland/DC/Baltimore employers"
+    },
+    {
+      "name": "Corporate finance, FP&A, commercial banking, fintech, risk",
+      "topics": "corporate finance, FP&A, treasury, commercial banking, fintech, risk management, compliance, Capital One, Fannie Mae, Freddie Mac, Navy Federal, Fidelity, Vanguard"
+    },
+    {
+      "name": "Consulting, strategy, operations, analytics, accounting crossover",
+      "topics": "consulting, strategy, operations, business analytics, accounting/finance crossover, Big 4 first-year programs (KPMG Embark, PwC, Deloitte, EY), Bain/BCG/McKinsey freshman programs"
+    },
+    {
+      "name": "Fellowships, leadership, externships, boards and UMD sources",
+      "topics": "freshman fellowships, leadership programs, externships, pre-internships, part-time/remote/hybrid and academic-year roles, Girls Who Invest, SEO Career, INROADS, Handshake-public pages, UMD Smith career center pages, WayUp, Virtual Internships, Forage"
+    }
+  ],
+  "relevance_mode": "inclusive"
+}

@@ -1,0 +1,6 @@
+# Alternative to GitHub Actions: any always-on Linux box / Raspberry Pi / VPS (cronie supports CRON_TZ).
+# `crontab -e`, then paste (edit the path). Keys come from the environment file.
+CRON_TZ=America/New_York
+0 8 * * *   cd /opt/early_career_agent && set -a && . ./.env && set +a && python3 agent.py daily  >> run.log 2>&1
+5 * * * *   cd /opt/early_career_agent && set -a && . ./.env && set +a && python3 agent.py hourly >> run.log 2>&1
+# .env:   ANTHROPIC_API_KEY=...   AGENTMAIL_API_KEY=...
