@@ -42,6 +42,9 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+from dotenv import load_dotenv
+load_dotenv()
+
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
